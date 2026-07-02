@@ -3,7 +3,7 @@ const releaseInfo = document.getElementById('releaseInfo');
 
 // Set the release date/time in the local timezone (CEST).
 // July 30, 2026 at 18:00 CEST
-const releaseDateLocal = new Date('2026-07-30T14:00:00');
+const releaseDateLocal = new Date('2026-07-30T17:00:00');
 
 function updateCountdown() {
   const now = new Date();
