@@ -1,0 +1,38 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(46, 46, 46);
+}
+
+@font-face {
+    font-family: 'celeste';
+    src:url("OMORI_GAME.ttf")
+}
+body {
+    text-align: center;
+    color: white;
+}
+.celestial {
+    font-family: 'celeste';
+    color:rgb(230, 0, 172);
+    font-size: 50px;
+}
+.countdown {
+    color:red;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8rem;
+}
+.release-info {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.tocome{
+    font-size: 40px;
+    transition-duration: 0.5s;
+}
+.tocome:hover {
+    font-size: 50px;
+
+}
